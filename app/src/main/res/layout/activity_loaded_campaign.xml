@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_imperial_class_deck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kevinsmith.iatracker.ImperialClassSelectNew"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/logo_rebel_imperial_mix_white_background"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:text="@string/missions"
+            android:layout_width="wrap_content"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="50dp"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/missionsBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mMissionsBtn"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/logo_imperial_no_background"
+            android:id="@+id/loadMain"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:text="@string/ip"
+            android:layout_width="wrap_content"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="50dp"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/impOwnedBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mImpOwnedBtn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/impPurchaseBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mImpPurchaseBtn"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/logo_rebel_red_no_background"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:text="@string/rebel"
+            android:layout_width="wrap_content"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="50dp"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/itemsBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mItemsBtn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/heroesBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mHeroDecksBtn"/>
+    </LinearLayout>
+</LinearLayout>

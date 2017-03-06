@@ -1,0 +1,6 @@
+"green", "Reclamation"
+"gray", "Hostile Takeover"
+"gray", "Cloud City's Secret"
+"gray", "Freedom Fighters"
+"Murne", "Panic in the Streets"
+"Davith", "Reclassified"

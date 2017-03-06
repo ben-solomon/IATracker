@@ -1,0 +1,21 @@
+"Agents of the Empire", "Imperial Informants", "1", "Tracking Beacon", "1", "Impounded", "4"
+"Defensive Tactics", "Counter-Strike", "1", "Enchanced Armor", "1", "Personal Shield Generators", "2"
+"Enhanced Interrogation", "Learn Their Weaknesses", "1", "Weak Links", "1", "Blackmail", "2"
+"Evasive Maneuvers", "Feigned Retreat", "1", "Contingency Plan", "1", "Hasty Ambush", "2"
+"For the Right Price", "Hired Help", "1", "High-Value Target", "2", "Wanted", "4"
+"Guild Hunters", "Abandon Contract", "2", "Call Your Shots", "2", "Shoot First", "2"
+"Imperial Discipline", "Tactical Maneuvering", "1", "Impending Doom", "1", "Fire at Will", "2"
+"Imperial Industry", "Interrogation Protocol", "1", "Restorative Supplies", "2", "Means of Production", "3"
+"Imperial Security Bureau", "Imperial Operative", "1", "ISB Enforcers", "2", "Internal Affairs", "2"
+"Lord Vader's Command", "As You Wish", "1", "A Dark Power", "2", "Dark Obsession", "3"
+"Natrual Warfare", "Exposed to the Elements", "1", "Bestial Fury", "1", "Unchained", "2"
+"Nefarious Dealings", "Final Blast", "2", "Trade Routes Disrupted", "2", "Back-Room Bargains", "3"
+"Persistence", "Jetpacks", "1", "No Rest for the Weary", "1", "Snap Fire", "1"
+"Pursuit of the Enemy", "Strike and Subdue", "1", "Death Mark", "2", "Fire in the Sky", "3"
+"Retaliation", "Tactical Explosives", "1", "Weakness Revealed", "2", "Breaking Point", "3"
+"Solider's for Hire", "By Any Means Necessary", "1", "No Disintegrations", "2", "Predator and Prey", "3"
+"The Empire's Reach", "Advanced Prototypes", "1", "Data Security", "2", "Infiltrated", "3"
+
+
+
+

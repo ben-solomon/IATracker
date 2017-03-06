@@ -1,0 +1,7 @@
+"mhd-19", "Preventative Measures" 
+"verana", "Know Your Enemy" 
+"loku", "Constant Vigilance" 
+"other", "Scouring of the Homestead" 
+"other", "The Hard Way" 
+"other", "Escape from Cloud City" 
+"other", "Survival of the Fittest" 

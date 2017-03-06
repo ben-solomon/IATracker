@@ -1,0 +1,4 @@
+"shyla", "Born from Death"
+"vinto", "A Hero's Welcome"
+"Onar", "Extortion"
+"gray", "Perilous Hunt"

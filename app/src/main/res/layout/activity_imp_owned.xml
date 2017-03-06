@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_imperial_class_deck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kevinsmith.iatracker.ImpOwned"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/logo_imperial_no_background"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:text="@string/impOwnedClass"
+            android:layout_width="wrap_content"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="50dp"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <LinearLayout
+            android:id="@+id/impClassDeckOwned"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/logo_imperial_no_background"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:text="@string/impOwnedAgenda"
+            android:layout_width="wrap_content"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="50dp"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0.86">
+
+        <LinearLayout
+            android:id="@+id/impAgendaOwned"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

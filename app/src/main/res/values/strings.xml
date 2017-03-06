@@ -1,0 +1,54 @@
+<resources>
+    <!-- general use -->
+    <string name="app_name">IATracker</string>
+    <string name="nextBtn">Next</string>
+    <string name="saveBtn">Save</string>
+
+    <!-- main menu buttons -->
+    <string name="newCampaignBtn">New</string>
+    <string name="loadCampaignBtn">Load</string>
+    <string name="aboutIAtrackerBtn">About</string>
+    <string name="mainScreenLogoBtn">Star Wars Imperial Assault</string>
+
+    <!-- new campaign view progression -->
+    <!-- campaign selection -->
+    <string name="campSelect">Choose Your Campaign</string>
+    <string name="baseName">Base Game</string>
+    <string name="twinName">Twin Shadows</string>
+    <string name="hothName">Return to Hoth</string>
+    <string name="bespinName">Bespin\'s Gambit</string>
+    <string name="jabbaName">Jabba\'s Realm (soon)</string>
+
+    <!-- side missions selections -->
+    <string name="missionsSelect">Select Side Missions</string>
+
+    <!-- imperial selections -->
+    <string name="imperialDeckSelect">Class Deck</string>
+    <string name="imperialAgendaSelect">Agenda Deck</string>
+
+    <!-- hero selection -->
+    <string name="heroSelect">Heroes</string>
+
+    <!-- load campaign -->
+    <string name="heroDeckBtn">Hero Decks</string>
+    <string name="buyClass">Buy Class</string>
+    <string name="buyAgenda">Buy Agenda</string>
+    <string name="boughtItems">Buy Items</string>
+    <string name="purchase">Purchase</string>
+    <string name="loadCampaign">Load Campaign</string>
+    <string name="missions">Missions</string>
+    <string name="missionsBtn">Missions</string>
+    <string name="ip">Imperial</string>
+    <string name="impOwnedBtn">Owned</string>
+    <string name="impOwnedClass">Owned Class</string>
+    <string name="impOwnedAgenda">Owned Agenda</string>
+    <string name="impPurchaseBtn">Purchase</string>
+    <string name="rebel">Rebels</string>
+    <string name="itemsBtn">Items</string>
+    <string name="heroesBtn">Heroes</string>
+    <string name="storyMissions">Story Missions</string>
+    <string name="sideMissions">Side Missions</string>
+    <string name="rebelBoughtItems">Bought Items</string>
+    <string name="rebelPurchaseItems">Purchase Items</string>
+
+</resources>
