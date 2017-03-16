@@ -32,40 +32,17 @@
         android:gravity="center_horizontal"
         android:layout_weight="0.96">
 
-        <RadioButton
-            android:text="@string/baseName"
-            android:layout_height="wrap_content"
-            android:id="@+id/mBaseGameRad"
-            android:layout_width="170dp"
-            android:layout_gravity="top|center_horizontal"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="0.86">
 
-        <RadioButton
-            android:text="@string/twinName"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/mTwinShadRad"
-            android:layout_gravity="top|center_horizontal" />
-
-        <RadioButton
-            android:text="@string/hothName"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/mHothRad"
-            android:layout_gravity="top|center_horizontal" />
-
-        <RadioButton
-            android:text="@string/bespinName"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/mBespinRad"
-            android:layout_gravity="top|center_horizontal" />
-
-        <RadioButton
-            android:text="@string/jabbaName"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/mJabbaRad"
-            android:layout_gravity="top|center_horizontal"/>" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:id="@+id/campaignScroll" />
+        </ScrollView>
     </LinearLayout>
 
     <LinearLayout
