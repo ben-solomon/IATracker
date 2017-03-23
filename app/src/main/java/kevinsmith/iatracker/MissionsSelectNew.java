@@ -95,3 +95,4 @@ public class MissionsSelectNew extends AppCompatActivity {
         }
     }
 }
+// nice comments, easy to follow even though the nature of the application would make it hard to do so without really seeing it running -BS
