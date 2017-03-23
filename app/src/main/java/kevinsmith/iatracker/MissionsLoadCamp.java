@@ -29,3 +29,5 @@ public class MissionsLoadCamp extends AppCompatActivity {
         }
     }
 }
+// what does the 8 in i<8 represent? Also ll1 and ll2 look a lot like l12 and 1l1 etc 
+//(I should be the last one to criticize variable names since mine are pretty ambiguous, but this is more about readability) -BS
